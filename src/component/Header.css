@@ -1,0 +1,41 @@
+.navbar{
+    height: 63px;
+    width:100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-bottom: 5px solid #DBE5F5;
+}
+
+.navbar > div{
+    height: 36px;
+    width:156px;
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+
+
+.btn-1{
+    margin-left: 52px;
+}
+
+.btn-1 > p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #001345;
+}
+
+.btn-2{
+    margin-left: 20px;
+}
+
+.btn-2 > p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #001345;
+}
+
+
+
+

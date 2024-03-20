@@ -1,0 +1,217 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.main-container{
+    /* border: 2px solid orange; */
+    margin-bottom: 70px;
+}
+
+
+.btn-container{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+.listpage{
+    height : 40px;
+    width: 100%;
+    /* border: 2px solid red; */
+    border-bottom: 1px solid #DFEBF2 ;
+}
+
+
+.listpage > div{
+    margin-left: 6%;
+    margin-top: 5px;
+}
+
+#list-home{
+    display: inline-block;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 19.5px;
+    align-items: center;
+    margin-right:10px ;
+}
+
+#list-course{
+    display: inline-block;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 19.5px;
+    align-items: center;
+    margin-left:10px ;
+
+}
+
+
+
+
+#dropdownDiv{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    margin-left: 135px;
+    margin-top: 15px;
+   
+
+}
+
+#dropdownDiv > label{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 20px;
+    color : #212427;
+}
+
+
+#course{
+    margin-left: 20px;
+    height: 42px;
+    width: 164px;
+    border: 1px solid #BAC6D4;
+    border-radius: 3px;
+
+}
+
+#sortby{
+    /* display: inline-block; */
+    float: right;
+    margin-right: 155px;
+    margin-top: 15px;
+   
+    
+}
+
+#sortby > button{
+    width: 120px;
+    height: 42px;
+    border-radius: 5px;
+    border: 0.5px solid #BAC6D4;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #0E2254;
+    line-height: 19px;
+    font-weight: 600;
+}
+
+
+
+
+
+/* Course List */
+
+.flex-container{
+    display: flex;
+    /* border : 2px solid green; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+
+
+.flex-container > div{
+    height: 320px;
+    width: 240px;
+    border : 1px solid #C7D9E0;
+    border-radius: 3px;
+    margin: 10px;
+    
+}
+
+
+.img-div{
+    height: 130px;
+    width: 236px;
+    /* border: 2px solid blue; */
+}
+
+.img-div > img{
+    height: 100%;
+    width:100%;
+}
+
+
+
+.heading-div{
+    height: 30px;
+    width:100%;
+    /* border: 2px solid red; */
+    text-align: center;
+     background: linear-gradient(101.16deg, #0065B4 0%, #009CF6 100%);
+}
+
+.heading-div > span{
+   font-size: 12px;
+   line-height: 16px;
+   font-weight: 500;
+   display: inline-block;
+  
+
+
+
+}
+
+
+
+
+.content-div{
+    height: 150px;
+    width:100%;
+    /* border: 2px solid green; */
+   
+}
+
+.content-heading{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight:500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+
+.course-duration{
+    /* border: 2px solid orange; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.course-duration > span{
+    font-size: 13px;
+    font-family: 500px;
+    line-height: 16px;
+    display: inline-block;
+}
+
+.hour{
+    margin-left: 20px;
+}
+
+
+.course-description{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+
+
+
+
+
+
